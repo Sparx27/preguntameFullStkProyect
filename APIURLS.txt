@@ -1,0 +1,12 @@
+URLS:
+https://localhost:7079/api
+
+Paises
+GET /paises || /paises/all
+GET /paises/{code}
+
+Usuario
+GET /usuario/{username}
+GET /usuario/{username}/preguntas
+PUT /usuario/{username}/preguntas
+GET /usuario/{username}/respuestas
